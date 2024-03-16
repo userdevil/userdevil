@@ -9,10 +9,6 @@
 
 ###
 
-<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
-
-###
-
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="12" />
@@ -30,6 +26,10 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="30" alt="kotlin logo"  />
 </div>
+
+###
+
+<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
 
 ###
 
@@ -53,6 +53,16 @@
 <br clear="both">
 
 <img src="https://raw.githubusercontent.com/userdevil/userdevil/output/snake.svg" alt="Snake animation" />
+
+###
+
+<br clear="both">
+
+<div align="center">
+  <a href="https://open.spotify.com/user/31x4kfhgwh6galwiab3zfii42awa">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31x4kfhgwh6galwiab3zfii42awa&count=5&unique=true" alt="Spotify recently played"  />
+  </a>
+</div>
 
 ###
 
