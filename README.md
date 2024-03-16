@@ -57,9 +57,7 @@
 ###
 
 <div align="center">
-  <a href="https://open.spotify.com/user/31x4kfhgwh6galwiab3zfii42awa">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31x4kfhgwh6galwiab3zfii42awa&count=5" alt="Spotify recently played"  />
-  </a>
+  <img src="https://profile-counter.glitch.me/userdevil/count.svg?"  />
 </div>
 
 ###
