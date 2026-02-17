@@ -26,7 +26,7 @@
 
 ###
 
-<p align="left">I'm Mavin Sandeep, an enthusiastic entrepreneur and tech enthusiast from Tiruchirappalli, Tamil Nadu<br><br>- 🔭 I’m studying B.tech</p>
+<p align="left">I'm Mavin Sandeep, an enthusiastic entrepreneur and tech enthusiast from Tiruchirappalli, Tamil Nadu<br><br>- 🔭 I’m Working as electronic engineer</p>
 
 ###
 
