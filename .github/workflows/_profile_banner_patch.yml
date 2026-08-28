@@ -1,0 +1,76 @@
+name: One-time profile banner repair
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  repair-banner:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Repair ASCII text nodes only
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          ascii_lines = [
+              "        .-=================-.",
+              "      .'   .-----------.   '.",
+              "     /    /   +-----+   \\    \\",
+              "    /    |    | MCU |    |    \\",
+              "   |     |  .-+-----+-.  |     |",
+              "   |  o--+--| GPIO  |--+--o  |",
+              "   |     |  | UART  |  |     |",
+              "   |  o--+--| SPI   |--+--o  |",
+              "   |     |  | I2C   |  |     |",
+              "   |  o--+--| RS485 |--+--o  |",
+              "    \\    |  +-------+  |    /",
+              "     \\   +-----+ +-----+   /",
+              "      \\____|___|_|___|____/",
+              "          |   |   |   |",
+              "      o---+   +---+   +---o",
+              "        PCB  // DATA //  BUS",
+              "        .-----------------.",
+          ]
+
+          def repair(path):
+              text = Path(path).read_text(encoding='utf-8')
+              for i, line in enumerate(ascii_lines):
+                  group_start = text.index(f'<g clip-path="url(#lc{i})">')
+                  group_end = text.index('</text></g>', group_start) + len('</text></g>')
+                  y = 160 + i * 15
+                  replacement = f'<g clip-path="url(#lc{i})"><text x="255" y="{y}">{line}</text></g>'
+                  text = text[:group_start] + replacement + text[group_end:]
+
+              text = text.replace('>Tech Entrepreneur</text>', '>Firmware Engineer</text>')
+              text = text.replace('>Android Developer</text>', '>Embedded Engineer</text>')
+              text = text.replace('>IoT Enthusiast</text>', '>IoT Engineer</text>')
+              text = text.replace('>Web Developer</text>', '>Hardware Eng.</text>')
+              text = text.replace('>Embedded Systems · Web</text>', '>Embedded · IoT · Firmware</text>')
+              text = text.replace('>▸ neofetch · glow</text>', '>▸ circuit · glow</text>')
+              Path(path).write_text(text, encoding='utf-8', newline='')
+
+          repair('dark.svg')
+          repair('light.svg')
+          PY
+
+      - name: Validate and commit
+        run: |
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          for f in ('dark.svg', 'light.svg'):
+              ET.parse(f)
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dark.svg light.svg .github/workflows/_profile_banner_patch.yml
+          git rm .github/workflows/_profile_banner_patch.yml
+          git commit -m "Repair electronics profile banner"
+          git push
