@@ -1,6 +1,6 @@
 <!-- Mavin Sandeep · GitHub Profile README -->
 
-<!-- GitHub theme-specific banner: the two images are explicitly filtered by GitHub theme. -->
+<!-- Banner assets are selected by GitHub's theme context tags. -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/userdevil/userdevil/main/dark.svg#gh-dark-mode-only" width="100%" alt="Mavin Sandeep GitHub profile banner — dark mode">
   <img src="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg#gh-light-mode-only" width="100%" alt="Mavin Sandeep GitHub profile banner — light mode">
