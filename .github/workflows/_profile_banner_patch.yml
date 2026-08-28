@@ -19,7 +19,6 @@ jobs:
         run: |
           python3 - <<'PY'
           from pathlib import Path
-          import re
 
           ascii_lines = [
               "        .-=================-.",
@@ -44,14 +43,14 @@ jobs:
           def patch_svg(path):
               text = Path(path).read_text(encoding='utf-8')
 
-              # Replace only the 17 existing ASCII text rows. No panel geometry,
-              # gradients, clips, timing, spacing, or surrounding UI is changed.
+              # Surgical replacement: only the 17 existing ASCII text nodes.
               for i, line in enumerate(ascii_lines):
-                  pattern = rf'(<g clip-path="url\\(#lc{i}\\)"><text x="255" y="\d+">)(.*?)(</text></g>)'
-                  replacement = rf'\1{line}\3'
-                  text, n = re.subn(pattern, replacement, text, count=1)
-                  if n != 1:
-                      raise RuntimeError(f'{path}: ASCII row lc{i} not found')
+                  needle = f'<g clip-path="url(#lc{i})"><text x="255" y="'
+                  a = text.index(needle)
+                  b = text.index('</text></g>', a) + len('</text></g>')
+                  prefix_end = text.index('>', a) + 1
+                  prefix = text[a:prefix_end]
+                  text = text[:a] + prefix + line + '</text></g>' + text[b:]
 
               # Keep the terminal UI, but make the rotating role content match
               # the electronics/embedded focus.
