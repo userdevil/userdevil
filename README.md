@@ -1,9 +1,9 @@
 <!-- Mavin Sandeep · GitHub Profile README -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-  <img src="./dark.svg" width="100%" alt="Mavin Sandeep GitHub profile banner">
+  <source media="(prefers-color-scheme: dark)" srcset="./dark-v2.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light-v2.svg">
+  <img src="./dark-v2.svg" width="100%" alt="Mavin Sandeep — Embedded IoT Systems Engineer">
 </picture>
 
 <div align="center">
@@ -18,34 +18,36 @@
 
 **Electronics Engineer • Embedded & IoT Developer • Backend/Systems Builder**
 
-I build technology at the intersection of **electronics, embedded firmware, connected devices, and web backends**. I enjoy taking an idea from a circuit and firmware level all the way to a working API, dashboard, mobile app, and deployed service.
+I build technology at the intersection of **electronics, embedded firmware, connected devices, and backend infrastructure**. I like taking systems from a circuit and firmware level through communication protocols, APIs, applications, and production deployment.
 
-My current work is heavily focused on **real-world IoT systems** — especially device communication, industrial protocols, telemetry, remote configuration, networking, and reliable firmware.
+My main focus is **real-world IoT engineering**: device communication, GNSS, cellular connectivity, industrial protocols, telemetry, remote configuration, networking, reliable firmware, and the infrastructure needed to keep connected devices running.
 
 ### 🔧 What I build
 
-- **Embedded systems** — ESP32, STM32, RL78, Arduino-class platforms, peripherals and device control
-- **IoT & connectivity** — BLE, Wi-Fi, cellular/GSM, GNSS, WebSockets, HTTP APIs and device telemetry
-- **Industrial communication** — RS485, Modbus RTU, Ethernet/W5500 and serial interfaces
-- **Backend & deployment** — APIs, databases, Linux servers, PM2/systemd, Cloudflare tunnels and production services
-- **Applications** — Android, web dashboards and tools that connect hardware to people
-- **Automation & AI tooling** — assistants, integrations, developer workflows and practical automation
+- **Embedded systems** — ESP32, STM32, RL78, Arduino-class platforms
+- **IoT & connectivity** — BLE, Wi-Fi, cellular/GSM, GNSS, WebSockets, HTTP APIs
+- **Industrial communication** — RS485, Modbus RTU, UART, SPI, I²C, Ethernet/W5500
+- **Backend & infrastructure** — Python/Flask, APIs, databases, Linux, PM2, systemd, Cloudflare
+- **Applications** — Android, React/web applications, dashboards and engineering tools
+- **Automation & AI tooling** — assistants, integrations and practical developer automation
 
-### 🚜 Featured project: FarmTrack
+### 🚜 Private product work — FarmTrack
 
-**FarmTrack** is one of my main engineering projects: a connected tracking/IoT platform spanning **hardware, firmware, communications, backend APIs and an application layer**.
+**FarmTrack** is a private IoT product I am building across the full stack:
 
-The work includes device-side firmware, GNSS and cellular connectivity, RS485/Modbus communication, OTA/offline update flows, telemetry, API integration and server-side infrastructure.
+> **Hardware → Firmware → Connectivity → Telemetry → API → Application → Deployment**
 
-> Hardware → Firmware → Connectivity → API → Application → Deployment
+The engineering includes embedded firmware, GNSS and cellular communication, RS485/Modbus, BLE, device telemetry, OTA/offline update flows, backend APIs, Linux infrastructure, and production networking.
 
-### 🧰 Tech I work with
+Because the project is **private**, its repositories are intentionally not linked here.
+
+### 🧰 Technologies
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=c,cpp,python,js,ts,react,nextjs,kotlin,android,arduino,raspberrypi,linux,docker,git,github,firebase,nodejs,flask" alt="Technology icons" />
 </div>
 
-### 📡 Embedded & systems focus
+### 📡 My systems mindset
 
 ```text
 MCU / Sensors
@@ -60,7 +62,7 @@ MCU / Sensors
        Device Firmware
              │
              ▼
-       HTTP / WebSocket APIs
+       Telemetry / APIs
              │
        ┌─────┴─────┐
        ▼           ▼
@@ -68,24 +70,19 @@ MCU / Sensors
        │           │
        └─────┬─────┘
              ▼
-        Production
-         Services
+        Linux / Cloud
+         Infrastructure
 ```
 
-### 🚀 Projects worth exploring
+### 🚀 Public projects
 
 | Project | What it represents |
 |---|---|
-| **[FarmTrack](https://github.com/userdevil/FarmTrack)** | IoT platform architecture and product development |
-| **[FarmTrack-Firmware](https://github.com/userdevil/FarmTrack-Firmware)** | Embedded firmware and device communication |
 | **[W5500-Generic-Library](https://github.com/userdevil/W5500-Generic-Library)** | Reusable Ethernet/W5500 work for embedded systems |
 | **[KernelESP](https://github.com/userdevil/KernelESP)** | ESP-focused embedded development |
+| **[KernelESP32](https://github.com/userdevil/KernelESP32)** | ESP32 experimentation and device software |
 | **[STM32-NUCLEO-F401RE_Bluetooth-](https://github.com/userdevil/STM32-NUCLEO-F401RE_Bluetooth-)** | STM32 + Bluetooth experimentation |
 | **[Nxt-IOT](https://github.com/userdevil/Nxt-IOT)** | Connected-device / IoT experimentation |
-
-### 🌐 Beyond hardware
-
-I also build software products and tools, including **Python/Flask services, React and web apps, Android projects, chatbots, computer-vision experiments, developer utilities, and server-side systems**.
 
 ### 🧠 Engineering philosophy
 
@@ -98,7 +95,7 @@ Deploy it properly.
 Then automate what hurts.
 ```
 
-I care more about **working systems than isolated demos** — especially systems that can survive real devices, bad networks, imperfect inputs, and long-running deployments.
+I care more about **working systems than isolated demos** — especially systems that have to deal with real hardware, unreliable networks, imperfect inputs, remote devices, and long-running deployments.
 
 ### 📊 GitHub activity
 
