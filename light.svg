@@ -189,23 +189,23 @@
       <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" keyTimes="0;.5;1" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" dur="6s" repeatCount="indefinite"/>
       <g filter="url(#glowA)" font-size="14" text-anchor="middle" fill="url(#ascG)">
         <animate attributeName="opacity" values="1;.97;1;.99;1" dur="3s" repeatCount="indefinite"/>
-        <g clip-path="url(#lc0)">        .-=================-.</text></g>
-        <g clip-path="url(#lc1)">      .'   .-----------.   '.</text></g>
-        <g clip-path="url(#lc2)">     /    /   +-----+   \    \</text></g>
-        <g clip-path="url(#lc3)">    /    |    | MCU |    |    \</text></g>
-        <g clip-path="url(#lc4)">   |     |  .-+-----+-.  |     |</text></g>
-        <g clip-path="url(#lc5)">   |  o--+--| GPIO  |--+--o  |</text></g>
-        <g clip-path="url(#lc6)">   |     |  | UART  |  |     |</text></g>
-        <g clip-path="url(#lc7)">   |  o--+--| SPI   |--+--o  |</text></g>
-        <g clip-path="url(#lc8)">   |     |  | I2C   |  |     |</text></g>
-        <g clip-path="url(#lc9)">   |  o--+--| RS485 |--+--o  |</text></g>
-        <g clip-path="url(#lc10)">    \    |  +-------+  |    /</text></g>
-        <g clip-path="url(#lc11)">     \   +-----+ +-----+   /</text></g>
-        <g clip-path="url(#lc12)">      \____|___|_|___|____/</text></g>
-        <g clip-path="url(#lc13)">          |   |   |   |</text></g>
-        <g clip-path="url(#lc14)">      o---+   +---+   +---o</text></g>
-        <g clip-path="url(#lc15)">        PCB  // DATA //  BUS</text></g>
-        <g clip-path="url(#lc16)">        .-----------------.</text></g>
+        <g clip-path="url(#lc0)"><text x="255" y="160">        .-=================-.</text></g>
+        <g clip-path="url(#lc1)"><text x="255" y="175">      .'   .-----------.   '.</text></g>
+        <g clip-path="url(#lc2)"><text x="255" y="190">     /    /   +-----+   \    \</text></g>
+        <g clip-path="url(#lc3)"><text x="255" y="205">    /    |    | MCU |    |    \</text></g>
+        <g clip-path="url(#lc4)"><text x="255" y="220">   |     |  .-+-----+-.  |     |</text></g>
+        <g clip-path="url(#lc5)"><text x="255" y="235">   |  o--+--| GPIO  |--+--o  |</text></g>
+        <g clip-path="url(#lc6)"><text x="255" y="250">   |     |  | UART  |  |     |</text></g>
+        <g clip-path="url(#lc7)"><text x="255" y="265">   |  o--+--| SPI   |--+--o  |</text></g>
+        <g clip-path="url(#lc8)"><text x="255" y="280">   |     |  | I2C   |  |     |</text></g>
+        <g clip-path="url(#lc9)"><text x="255" y="295">   |  o--+--| RS485 |--+--o  |</text></g>
+        <g clip-path="url(#lc10)"><text x="255" y="310">    \    |  +-------+  |    /</text></g>
+        <g clip-path="url(#lc11)"><text x="255" y="325">     \   +-----+ +-----+   /</text></g>
+        <g clip-path="url(#lc12)"><text x="255" y="340">      \____|___|_|___|____/</text></g>
+        <g clip-path="url(#lc13)"><text x="255" y="355">          |   |   |   |</text></g>
+        <g clip-path="url(#lc14)"><text x="255" y="370">      o---+   +---+   +---o</text></g>
+        <g clip-path="url(#lc15)"><text x="255" y="385">        PCB  // DATA //  BUS</text></g>
+        <g clip-path="url(#lc16)"><text x="255" y="400">        .-----------------.</text></g>
         <rect x="366" y="390" width="9" height="14" rx="1.5">
           <animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;.55" dur="1.1s" repeatCount="indefinite"/>
         </rect>
