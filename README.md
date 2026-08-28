@@ -1,42 +1,38 @@
-<div align="center">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
-</div>
+<!-- 🌗 DARK / LIGHT MODE PREMIUM BANNER -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+  <img alt="Mavin Sandeep - GitHub Profile Banner" src="./light.svg" width="100%">
+</picture>
 
-###
-
+<!-- 🔗 CONNECT WITH ME (Clickable links must be outside the SVG) -->
 <div align="center">
   <a href="https://www.linkedin.com/in/mavinsandeep/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
   </a>
   <a href="https://www.instagram.com/mavin_sandeep/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo" />
   </a>
   <a href="mailto:mavinsandeep@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo" />
   </a>
 </div>
 
-###
+<br/>
 
-<h1 align="center">Hey there 👋</h1>
+<!-- 👩‍💻 ABOUT ME -->
+### 👩‍💻 About Me
 
-###
+I'm **Mavin Sandeep**, an enthusiastic entrepreneur and tech enthusiast from Tiruchirappalli, Tamil Nadu.
 
-<h3 align="left">👩‍💻  About Me</h3>
+- 🔭 I’m currently working as an **Electronic Engineer**
+- 🌱 I’m exploring the intersection of hardware and web technologies
+- ⚡ Fun fact: I love building things, from Android apps to Arduino circuits!
 
-###
+<br/>
 
-<p align="left">I'm Mavin Sandeep, an enthusiastic entrepreneur and tech enthusiast from Tiruchirappalli, Tamil Nadu<br><br>- 🔭 I’m Working as electronic engineer</p>
-
-###
-
-<h3 align="left">🛠 Language and tools</h3>
-
-###
-
-<img src="https://raw.githubusercontent.com/userdevil/userdevil/output/snake.svg" alt="Snake animation" />
-
-###
+<!-- 🛠 LANGUAGES AND TOOLS -->
+### 🛠 Languages and Tools
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
@@ -60,21 +56,26 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="40" alt="arduino logo"  />
 </div>
 
-###
+<br/>
 
-<h3 align="left">🔥   My Stats :</h3>
-
-###
+<!-- 🔥 MY STATS -->
+### 🔥 My Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=userdevil&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=userdevil&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
 
-###
+<br/>
 
+<!-- 🐍 SNAKE ANIMATION -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/userdevil/userdevil/output/snake.svg" alt="Snake animation" />
+</div>
+
+<br/>
+
+<!-- 👀 PROFILE VIEWS -->
 <div align="center">
   <img src="https://profile-counter.glitch.me/userdevil/count.svg?"  />
 </div>
-
-###
