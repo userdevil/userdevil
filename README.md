@@ -1,10 +1,10 @@
 <!-- Mavin Sandeep · GitHub Profile README -->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/userdevil/userdevil/main/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg">
-  <img src="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg" width="100%" alt="Mavin Sandeep GitHub profile banner">
-</picture>
+<!-- GitHub theme-specific banner: the two images are explicitly filtered by GitHub theme. -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/userdevil/userdevil/main/dark.svg#gh-dark-mode-only" width="100%" alt="Mavin Sandeep GitHub profile banner — dark mode">
+  <img src="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg#gh-light-mode-only" width="100%" alt="Mavin Sandeep GitHub profile banner — light mode">
+</p>
 
 <div align="center">
   <a href="https://mavinsandeep.co.in"><img src="https://img.shields.io/badge/Website-mavinsandeep.co.in-111827?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"></a>
