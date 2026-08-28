@@ -1,11 +1,11 @@
 <!-- Mavin Sandeep · GitHub Profile README -->
 
-<!-- Banner assets are selected by GitHub's theme context tags. -->
-<!-- Electronics-engineering ASCII banner patch applied without changing the UI layout. -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/userdevil/userdevil/main/dark.svg#gh-dark-mode-only" width="100%" alt="Mavin Sandeep GitHub profile banner — dark mode">
-  <img src="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg#gh-light-mode-only" width="100%" alt="Mavin Sandeep GitHub profile banner — light mode">
-</p>
+<!-- GitHub theme-aware banner: prefers-color-scheme controls which SVG is rendered. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/userdevil/userdevil/main/dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg?v=3">
+  <img src="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg?v=3" width="100%" alt="Mavin Sandeep GitHub profile banner">
+</picture>
 
 <div align="center">
   <a href="https://mavinsandeep.co.in"><img src="https://img.shields.io/badge/Website-mavinsandeep.co.in-111827?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"></a>
