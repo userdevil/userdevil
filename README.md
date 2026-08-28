@@ -2,9 +2,9 @@
 
 <!-- GitHub theme-aware banner: prefers-color-scheme controls which SVG is rendered. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/userdevil/userdevil/main/dark.svg?v=3">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg?v=3">
-  <img src="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg?v=3" width="100%" alt="Mavin Sandeep GitHub profile banner">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/userdevil/userdevil/main/dark.svg?v=4">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg?v=4">
+  <img src="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg?v=4" width="100%" alt="Mavin Sandeep GitHub profile banner">
 </picture>
 
 <div align="center">
@@ -21,7 +21,7 @@
 
 I build technology at the intersection of **electronics, embedded firmware, connected devices, and web backends**. I enjoy taking an idea from a circuit and firmware level all the way to a working API, dashboard, application, and deployed service.
 
-My current work is heavily focused on **real-world IoT systems** — especially device communication, GNSS, cellular connectivity, industrial protocols, telemetry, remote configuration, networking, and reliable firmware.
+My work focuses on **real-world embedded and IoT systems** — especially device communication, GNSS, cellular connectivity, industrial protocols, telemetry, remote configuration, networking, and reliable firmware.
 
 ### 🔧 What I build
 
@@ -31,16 +31,6 @@ My current work is heavily focused on **real-world IoT systems** — especially 
 - **Backend & deployment** — APIs, databases, Linux servers, PM2/systemd, Cloudflare tunnels and production services
 - **Applications** — Android, web dashboards and tools that connect hardware to people
 - **Automation & AI tooling** — assistants, integrations, developer workflows and practical automation
-
-### 🚜 Private product work — FarmTrack
-
-**FarmTrack** is a private IoT product I am building across the full stack:
-
-> **Hardware → Firmware → Connectivity → Telemetry → API → Application → Deployment**
-
-The work spans embedded firmware, GNSS and cellular communication, RS485/Modbus, BLE, telemetry, OTA/offline update flows, backend APIs, Linux infrastructure and production networking.
-
-The project is private, so its repositories are intentionally not linked here.
 
 ### 🧰 Tech I work with
 
