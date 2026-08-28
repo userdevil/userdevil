@@ -1,9 +1,9 @@
 <!-- Mavin Sandeep · GitHub Profile README -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dark-v2.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./light-v2.svg">
-  <img src="./dark-v2.svg" width="100%" alt="Mavin Sandeep — Embedded IoT Systems Engineer">
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+  <img src="./dark.svg" width="100%" alt="Mavin Sandeep GitHub profile banner">
 </picture>
 
 <div align="center">
@@ -18,18 +18,18 @@
 
 **Electronics Engineer • Embedded & IoT Developer • Backend/Systems Builder**
 
-I build technology at the intersection of **electronics, embedded firmware, connected devices, and backend infrastructure**. I like taking systems from a circuit and firmware level through communication protocols, APIs, applications, and production deployment.
+I build technology at the intersection of **electronics, embedded firmware, connected devices, and web backends**. I enjoy taking an idea from a circuit and firmware level all the way to a working API, dashboard, application, and deployed service.
 
-My main focus is **real-world IoT engineering**: device communication, GNSS, cellular connectivity, industrial protocols, telemetry, remote configuration, networking, reliable firmware, and the infrastructure needed to keep connected devices running.
+My current work is heavily focused on **real-world IoT systems** — especially device communication, GNSS, cellular connectivity, industrial protocols, telemetry, remote configuration, networking, and reliable firmware.
 
 ### 🔧 What I build
 
-- **Embedded systems** — ESP32, STM32, RL78, Arduino-class platforms
-- **IoT & connectivity** — BLE, Wi-Fi, cellular/GSM, GNSS, WebSockets, HTTP APIs
+- **Embedded systems** — ESP32, STM32, RL78, Arduino-class platforms, peripherals and device control
+- **IoT & connectivity** — BLE, Wi-Fi, cellular/GSM, GNSS, WebSockets, HTTP APIs and device telemetry
 - **Industrial communication** — RS485, Modbus RTU, UART, SPI, I²C, Ethernet/W5500
-- **Backend & infrastructure** — Python/Flask, APIs, databases, Linux, PM2, systemd, Cloudflare
-- **Applications** — Android, React/web applications, dashboards and engineering tools
-- **Automation & AI tooling** — assistants, integrations and practical developer automation
+- **Backend & deployment** — APIs, databases, Linux servers, PM2/systemd, Cloudflare tunnels and production services
+- **Applications** — Android, web dashboards and tools that connect hardware to people
+- **Automation & AI tooling** — assistants, integrations, developer workflows and practical automation
 
 ### 🚜 Private product work — FarmTrack
 
@@ -37,42 +37,15 @@ My main focus is **real-world IoT engineering**: device communication, GNSS, cel
 
 > **Hardware → Firmware → Connectivity → Telemetry → API → Application → Deployment**
 
-The engineering includes embedded firmware, GNSS and cellular communication, RS485/Modbus, BLE, device telemetry, OTA/offline update flows, backend APIs, Linux infrastructure, and production networking.
+The work spans embedded firmware, GNSS and cellular communication, RS485/Modbus, BLE, telemetry, OTA/offline update flows, backend APIs, Linux infrastructure and production networking.
 
-Because the project is **private**, its repositories are intentionally not linked here.
+The project is private, so its repositories are intentionally not linked here.
 
-### 🧰 Technologies
+### 🧰 Tech I work with
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=c,cpp,python,js,ts,react,nextjs,kotlin,android,arduino,raspberrypi,linux,docker,git,github,firebase,nodejs,flask" alt="Technology icons" />
 </div>
-
-### 📡 My systems mindset
-
-```text
-MCU / Sensors
-     │
-     ├── UART / SPI / I²C
-     ├── RS485 / Modbus RTU
-     ├── BLE / Wi-Fi
-     ├── Cellular / GNSS
-     └── Ethernet / W5500
-             │
-             ▼
-       Device Firmware
-             │
-             ▼
-       Telemetry / APIs
-             │
-       ┌─────┴─────┐
-       ▼           ▼
-   Dashboard     Mobile App
-       │           │
-       └─────┬─────┘
-             ▼
-        Linux / Cloud
-         Infrastructure
-```
 
 ### 🚀 Public projects
 
