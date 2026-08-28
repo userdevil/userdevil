@@ -2,9 +2,9 @@
 
 <!-- GitHub theme-aware banner: prefers-color-scheme controls which SVG is rendered. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/userdevil/userdevil/main/dark.svg?v=4">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg?v=4">
-  <img src="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg?v=4" width="100%" alt="Mavin Sandeep GitHub profile banner">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/userdevil/userdevil/main/dark.svg?v=5">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg?v=5">
+  <img src="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg?v=5" width="100%" alt="Mavin Sandeep GitHub profile banner">
 </picture>
 
 <div align="center">
@@ -64,14 +64,9 @@ I care more about **working systems than isolated demos** — especially systems
 ### 📊 GitHub activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=userdevil&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=transparent" height="165" alt="GitHub stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=userdevil&layout=compact&langs_count=8&hide_border=true&theme=transparent" height="165" alt="Top languages">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/userdevil/userdevil/output/snake.svg" alt="GitHub contribution snake animation">
+  <a href="https://github.com/userdevil?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repositories-Explore-181717?style=for-the-badge&logo=github&logoColor=white" alt="Public repositories"></a>
+  <a href="https://github.com/userdevil?tab=stars"><img src="https://img.shields.io/badge/Stars-Explore-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub stars"></a>
+  <a href="https://github.com/userdevil?tab=overview"><img src="https://img.shields.io/badge/Contributions-View%20Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub contributions"></a>
 </div>
 
 <br>
