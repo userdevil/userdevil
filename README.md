@@ -1,81 +1,120 @@
-<!-- 🌗 DARK / LIGHT MODE PREMIUM BANNER -->
+<!-- Mavin Sandeep · GitHub Profile README -->
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-  <img alt="Mavin Sandeep - GitHub Profile Banner" src="./dark.svg" width="100%">
+  <img src="./dark.svg" width="100%" alt="Mavin Sandeep GitHub profile banner">
 </picture>
 
-<!-- 🔗 CONNECT WITH ME (Clickable links must be outside the SVG) -->
 <div align="center">
-  <a href="https://www.linkedin.com/in/mavinsandeep/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
-  </a>
-  <a href="https://www.instagram.com/mavin_sandeep/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo" />
-  </a>
-  <a href="mailto:mavinsandeep@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo" />
-  </a>
+  <a href="https://mavinsandeep.co.in"><img src="https://img.shields.io/badge/Website-mavinsandeep.co.in-111827?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"></a>
+  <a href="https://www.linkedin.com/in/mavinsandeep/"><img src="https://img.shields.io/badge/LinkedIn-Mavin%20Sandeep-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:mavinsandeep@gmail.com"><img src="https://img.shields.io/badge/Email-mavinsandeep%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </div>
 
-<br/>
+<br>
 
-<!-- 👩‍💻 ABOUT ME -->
-### 👩‍💻 About Me
+## 👋 Hey, I'm Mavin Sandeep
 
-I'm **Mavin Sandeep**, an enthusiastic entrepreneur and tech enthusiast from Tiruchirappalli, Tamil Nadu.
+**Electronics Engineer • Embedded & IoT Developer • Backend/Systems Builder**
 
-- 🔭 I’m currently working as an **Electronic Engineer**
-- 🌱 I’m exploring the intersection of hardware and web technologies
-- ⚡ Fun fact: I love building things, from Android apps to Arduino circuits!
+I build technology at the intersection of **electronics, embedded firmware, connected devices, and web backends**. I enjoy taking an idea from a circuit and firmware level all the way to a working API, dashboard, mobile app, and deployed service.
 
-<br/>
+My current work is heavily focused on **real-world IoT systems** — especially device communication, industrial protocols, telemetry, remote configuration, networking, and reliable firmware.
 
-<!-- 🛠 LANGUAGES AND TOOLS -->
-### 🛠 Languages and Tools
+### 🔧 What I build
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="40" alt="kotlin logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="40" alt="android logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="40" alt="androidstudio logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" height="40" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="40" alt="arduino logo"  />
-</div>
+- **Embedded systems** — ESP32, STM32, RL78, Arduino-class platforms, peripherals and device control
+- **IoT & connectivity** — BLE, Wi-Fi, cellular/GSM, GNSS, WebSockets, HTTP APIs and device telemetry
+- **Industrial communication** — RS485, Modbus RTU, Ethernet/W5500 and serial interfaces
+- **Backend & deployment** — APIs, databases, Linux servers, PM2/systemd, Cloudflare tunnels and production services
+- **Applications** — Android, web dashboards and tools that connect hardware to people
+- **Automation & AI tooling** — assistants, integrations, developer workflows and practical automation
 
-<br/>
+### 🚜 Featured project: FarmTrack
 
-<!-- 🔥 MY STATS -->
-### 🔥 My Stats
+**FarmTrack** is one of my main engineering projects: a connected tracking/IoT platform spanning **hardware, firmware, communications, backend APIs and an application layer**.
+
+The work includes device-side firmware, GNSS and cellular connectivity, RS485/Modbus communication, OTA/offline update flows, telemetry, API integration and server-side infrastructure.
+
+> Hardware → Firmware → Connectivity → API → Application → Deployment
+
+### 🧰 Tech I work with
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=userdevil&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=userdevil&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,js,ts,react,nextjs,kotlin,android,arduino,raspberrypi,linux,docker,git,github,firebase,nodejs,flask" alt="Technology icons" />
 </div>
 
-<br/>
+### 📡 Embedded & systems focus
 
-<!-- 🐍 SNAKE ANIMATION -->
+```text
+MCU / Sensors
+     │
+     ├── UART / SPI / I²C
+     ├── RS485 / Modbus RTU
+     ├── BLE / Wi-Fi
+     ├── Cellular / GNSS
+     └── Ethernet / W5500
+             │
+             ▼
+       Device Firmware
+             │
+             ▼
+       HTTP / WebSocket APIs
+             │
+       ┌─────┴─────┐
+       ▼           ▼
+   Dashboard     Mobile App
+       │           │
+       └─────┬─────┘
+             ▼
+        Production
+         Services
+```
+
+### 🚀 Projects worth exploring
+
+| Project | What it represents |
+|---|---|
+| **[FarmTrack](https://github.com/userdevil/FarmTrack)** | IoT platform architecture and product development |
+| **[FarmTrack-Firmware](https://github.com/userdevil/FarmTrack-Firmware)** | Embedded firmware and device communication |
+| **[W5500-Generic-Library](https://github.com/userdevil/W5500-Generic-Library)** | Reusable Ethernet/W5500 work for embedded systems |
+| **[KernelESP](https://github.com/userdevil/KernelESP)** | ESP-focused embedded development |
+| **[STM32-NUCLEO-F401RE_Bluetooth-](https://github.com/userdevil/STM32-NUCLEO-F401RE_Bluetooth-)** | STM32 + Bluetooth experimentation |
+| **[Nxt-IOT](https://github.com/userdevil/Nxt-IOT)** | Connected-device / IoT experimentation |
+
+### 🌐 Beyond hardware
+
+I also build software products and tools, including **Python/Flask services, React and web apps, Android projects, chatbots, computer-vision experiments, developer utilities, and server-side systems**.
+
+### 🧠 Engineering philosophy
+
+```text
+Understand the hardware.
+Design the protocol.
+Build reliable firmware.
+Expose a clean API.
+Deploy it properly.
+Then automate what hurts.
+```
+
+I care more about **working systems than isolated demos** — especially systems that can survive real devices, bad networks, imperfect inputs, and long-running deployments.
+
+### 📊 GitHub activity
+
 <div align="center">
-  <img src="https://raw.githubusercontent.com/userdevil/userdevil/output/snake.svg" alt="Snake animation" />
+  <img src="https://github-readme-stats.vercel.app/api?username=userdevil&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=transparent" height="165" alt="GitHub stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=userdevil&layout=compact&langs_count=8&hide_border=true&theme=transparent" height="165" alt="Top languages">
 </div>
 
-<br/>
+<br>
 
-<!-- 👀 PROFILE VIEWS -->
 <div align="center">
-  <img src="https://profile-counter.glitch.me/userdevil/count.svg?"  />
+  <img src="https://raw.githubusercontent.com/userdevil/userdevil/output/snake.svg" alt="GitHub contribution snake animation">
+</div>
+
+<br>
+
+<div align="center">
+  <strong>Building at the edge — where hardware, software and the real world meet.</strong>
 </div>
