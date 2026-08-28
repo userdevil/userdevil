@@ -1,6 +1,7 @@
 <!-- Mavin Sandeep · GitHub Profile README -->
 
 <!-- Banner assets are selected by GitHub's theme context tags. -->
+<!-- Electronics-engineering ASCII banner patch applied without changing the UI layout. -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/userdevil/userdevil/main/dark.svg#gh-dark-mode-only" width="100%" alt="Mavin Sandeep GitHub profile banner — dark mode">
   <img src="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg#gh-light-mode-only" width="100%" alt="Mavin Sandeep GitHub profile banner — light mode">
