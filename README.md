@@ -1,9 +1,9 @@
 <!-- Mavin Sandeep · GitHub Profile README -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-  <img src="./dark.svg" width="100%" alt="Mavin Sandeep GitHub profile banner">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/userdevil/userdevil/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg">
+  <img src="https://raw.githubusercontent.com/userdevil/userdevil/main/light.svg" width="100%" alt="Mavin Sandeep GitHub profile banner">
 </picture>
 
 <div align="center">
